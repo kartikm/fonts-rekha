@@ -19,6 +19,20 @@ Technical Details
 =================
 * Glyphs count : 407
 
+Creating Web Fonts
+==================
+[Sfntly] (https://code.google.com/p/sfntly/) is required for creating web fonts. Once installed, following commands can be used.
+
+#### Creating .woff
+```
+java -jar /path/to/sfnttool.jar -w Rekha.ttf Rekha.woff
+```
+
+#### Creating .eot
+```
+java -jar /path/to/sfnttool.jar -e -x Rekha.ttf Rekha.eot
+```
+
 LICENSE
 =======
 GPL-2+
