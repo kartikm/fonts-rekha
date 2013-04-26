@@ -15,6 +15,10 @@ Contributors:
 * Khushbu Shah,
 * Sweta Kothari.
 
+Technical Details
+=================
+* Glyphs count : 407
+
 LICENSE
 =======
 GPL-2+
