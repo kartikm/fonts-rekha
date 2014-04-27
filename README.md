@@ -16,6 +16,26 @@ Technical Details
 =================
 * Glyphs count : 407
 
+How to install fonts on Linux?
+===================================
+#### Linux (using package)
+
+In Debian and derivative distributions like Ubuntu, simply use:
+
+```
+sudo apt-get install fonts-rekha
+```
+
+#### Linux (manual installation)
+
+Place font file to ```/usr/share/fonts``` folder and run,
+
+```
+fc-cache -v
+```
+in terminal.
+
+
 Creating Web Fonts
 ==================
 [Sfntly] (https://code.google.com/p/sfntly/) is required for creating web fonts. Once installed, following commands can be used.
